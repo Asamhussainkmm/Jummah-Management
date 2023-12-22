@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/secondary_color"
+    android:layout_marginBottom="8dp"
+    android:id="@+id/rlitem">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cvprofile"
+        android:layout_width="64sp"
+        android:layout_height="64sp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile_default" />
+
+    <TextView
+        android:textColor="@color/primary_color"
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dhayi Name"
+        android:layout_toRightOf="@id/cvprofile"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/tvphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvname"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/cvprofile"
+        android:text="0772489767" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lljummah"
+        android:layout_below="@id/tvphone"
+        android:layout_toRightOf="@id/cvprofile"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvjummah"
+            android:text="Last Jummah: "
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvbranch"
+            android:text="Sainthamaruthu"
+            android:layout_weight="1"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lljummah2"
+        android:layout_below="@id/lljummah"
+        android:layout_toRightOf="@id/cvprofile"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvdate"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvbranchdate"
+            android:text="05/12/2023"
+            android:layout_weight="1"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

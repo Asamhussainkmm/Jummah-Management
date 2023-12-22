@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/secondary_color"
+    android:layout_marginBottom="8dp"
+    android:id="@+id/rljummah">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/tvlistbranchname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlistupdatedate"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Branch Name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:textColor="@color/text_color"
+        android:id="@+id/tvlistbranchphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlistbranchname"
+        android:layout_alignParentStart="true"
+        android:paddingTop="8dp"
+        android:textSize="12dp"
+        android:text="Updated date" />
+
+    <TextView
+        android:id="@+id/tvlistupdatedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Updated date"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"
+        android:textSize="10dp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:visibility="invisible"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:id="@+id/ginew"
+        android:src="@drawable/newgif"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <TextView
+        android:textColor="@color/text_color"
+        android:id="@+id/tvlistdhaayiname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlistbranchphone"
+        android:layout_alignParentStart="true"
+        android:paddingTop="16dp"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:text="Dhaayi Name" />
+    <TextView
+        android:textColor="@color/text_color"
+        android:id="@+id/tvlistdhaayinumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlistdhaayiname"
+        android:layout_alignParentStart="true"
+        android:paddingTop="16dp"
+        android:textSize="12dp"
+        android:textAlignment="center"
+        android:text="Dhaayi Name" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivlistprofile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@id/tvlistbranchname"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/profile_default" />
+
+
+
+</RelativeLayout>

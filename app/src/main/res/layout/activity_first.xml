@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:background="#14342b">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/tvadminstatus"
+            android:textColor="@color/secondary_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are Admin"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+        <ImageView
+            android:id="@+id/ivlogo"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            />
+
+        <TextView
+            android:textColor="@color/secondary_color"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SLTJ Jummah"
+            android:layout_marginBottom="64dp"/>
+
+
+
+        <Button
+            android:textColor="@color/text_color"
+            android:background="@drawable/button_background"
+            android:id="@+id/btnjummahlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="View Jummah"/>
+        <Button
+            android:textColor="@color/text_color"
+            android:background="@drawable/button_background"
+            android:id="@+id/btndhaayilist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="View Dhaee List"/>
+        <Button
+            android:textColor="@color/text_color"
+            android:background="@drawable/button_background"
+            android:id="@+id/btnbranchlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="View Branch List"/>
+        <Button
+            android:textColor="@color/text_color"
+            android:background="@drawable/button_background"
+            android:id="@+id/btnexit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"/>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fblogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/baseline_logout_24"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tooltipText="Login"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "451034944070",
+    "firebase_url": "https://helpme2-30cce-default-rtdb.firebaseio.com",
+    "project_id": "helpme2-30cce",
+    "storage_bucket": "helpme2-30cce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451034944070:android:e1e9193622507b2d35f047",
+        "android_client_info": {
+          "package_name": "com.sltj.jummah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6_WFQ5GYqUINcLPAYnMtkuVIC8KrTed4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451034944070:android:e22de5e804c77f4835f047",
+        "android_client_info": {
+          "package_name": "com.teraunits.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6_WFQ5GYqUINcLPAYnMtkuVIC8KrTed4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

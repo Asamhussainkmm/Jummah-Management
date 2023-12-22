@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SLTJ Jummah</string>
+    <string name="title_activity_my_home_page">MyHomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
